@@ -9,11 +9,15 @@ module.exports = {
   ],
   prefix: "",
   theme: {
-    fontFamily: {
-      LexendDeca: ["Lexend Deca", "sans-serif"],
-      SpaceMono: ["Space Mono", "monospace"],
+    extend: {
+      colors: {
+        'beaver-clr': ' #9e7f66',
+        'codGray-clr': '#111111',
+        'mirage-clr': '#17192b',
+        'ebonyClay-clr': '#242b37',
+        'shuttleGray-clr': '#5c6779',
+      },
     },
-    extend: {},
   },
   plugins: [require("tailwindcss-animate")],
 };

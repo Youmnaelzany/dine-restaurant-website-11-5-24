@@ -1,0 +1,66 @@
+---
+import "@/styles/globals.css";
+---
+
+<footer class="footerWrapper">
+  <!-- BOOK A TABLE -->
+  <section class="relative">
+    <picture>
+      <!-- DESKTOP -->
+      <source
+        media="(min-width:1440px )"
+        srcset="/images/homepage/ready-bg-desktop.jpg"
+      />
+      <!-- TABLET -->
+      <source
+        media="(min-width:768px )"
+        srcset="/images/homepage/ready-bg-tablet.jpg"
+      />
+      <!-- MOBILE -->
+      <img src="/images/homepage/ready-bg-mobile.jpg" alt="" class="" />
+    </picture>
+    <!-- BOOK A TABLE BUTTON -->
+    <div
+      class="absolute bottom-20 mx-[4.06rem] flex flex-col items-center md:bottom-16 md:gap-6 xl:bottom-[5.5rem] xl:mx-[10.31rem] xl:flex-row xl:gap-[15.63rem]"
+    >
+      <h3
+        class="hidden items-center text-center text-5xl font-bold leading-[3rem] tracking-[-0.03125rem] text-white md:max-2xl:flex"
+      >
+        Ready to make a reservation?
+      </h3>
+      <a
+        href="/booking"
+        class="hover:text-codGray-clr flex h-16 w-[15.3125rem] items-center justify-center border border-solid border-white text-[1.0625rem] font-semibold uppercase leading-none tracking-[0.15625rem] text-white transition-colors duration-500 ease-linear hover:bg-white"
+        >Book a table</a
+      >
+    </div>
+  </section>
+  <!-- TITLE & ADDRESS -->
+  <section
+    class="bg-codGray-clr flex h-[27.5rem] w-full flex-col items-center justify-center gap-[2.63rem] text-center md:h-[20.5rem] md:gap-[8.1rem] md:pb-[3.87rem] md:pl-[2.44rem] md:pr-10 md:pt-[4.12rem] md:max-2xl:flex-row md:max-2xl:items-start md:max-2xl:justify-between md:max-2xl:text-left xl:h-[15rem] xl:gap-[12.4rem] xl:px-[10.31rem] xl:pb-[4.75rem] xl:pt-20"
+  >
+    <!-- LOGO -->
+    <div class="">
+      <img src="/images/logo.svg" alt="" class="h-10 w-[6.46406rem]" />
+    </div>
+    <!-- ADDRESS & OPEN TIMES -->
+    <div class="flex flex-col gap-8 text-white xl:flex-row xl:gap-[7.75rem]">
+      <!-- ADDRESS -->
+      <div
+        class="flex flex-col text-sm font-normal uppercase leading-7 tracking-[0.125rem] text-white md:w-[28.5rem] xl:w-[15.25rem]"
+      >
+        <h3 class="">Marthwaite, Sedbergh</h3>
+        <h3 class="">Cumbria</h3>
+        <h3 class="">+00 44 123 4567</h3>
+      </div>
+      <!-- OPEN TIMES -->
+      <div
+        class="flex flex-col text-sm font-normal uppercase leading-7 tracking-[0.125rem] text-white md:w-[28.5rem] xl:w-[27.875rem]"
+      >
+        <h3 class="">Open Times</h3>
+        <h3 class="">Mon - Fri: 09:00 AM - 10:00 PM</h3>
+        <h3 class="">Sat - Sun: 09:00 AM - 11:30 PM</h3>
+      </div>
+    </div>
+  </section>
+</footer>

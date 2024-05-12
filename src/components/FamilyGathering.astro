@@ -1,0 +1,234 @@
+---
+import "@/styles/globals.css";
+---
+
+<section
+  class="re bg-white pb-32 pl-6 pr-[1.56rem] pt-20 md:pl-[6.06rem] md:pr-[6.12rem] md:pt-24 xl:px-[10.31rem] xl:pt-40"
+>
+  <div
+    class="relative z-50 xl:flex xl:items-center xl:justify-between xl:gap-[7.81rem]"
+  >
+    <div class="">
+      <div class="hidden md:max-2xl:flex">
+        <img
+          src="/public/images/patterns/pattern-curve-top-right.svg"
+          alt=""
+          class="absolute -z-50 md:left-[-19.125rem] md:top-[-6.313rem] xl:left-[-33.125rem] xl:top-[-10.313rem]"
+        />
+        <img
+          src="/public/images/patterns/pattern-lines.svg"
+          alt=""
+          class="absolute md:left-[-3.688rem] md:top-[-2.375rem] xl:left-[-2.688rem]"
+        />
+      </div>
+      <picture>
+        <source
+          media="(min-width:1440px )"
+          srcset="/images/homepage/family-gathering-desktop.jpg"
+        />
+        <source
+          media="(min-width:768px )"
+          srcset="/images/homepage/family-gathering-tablet.jpg"
+        />
+        <img
+          src="/images/homepage/family-gathering-mobile.jpg"
+          alt="family gathering"
+          class="shadow-2xl"
+          id="familyGatheringImg"
+        />
+      </picture>
+      <picture>
+        <source
+          media="(min-width:1440px )"
+          srcset="/images/homepage/special-events-desktop.jpg"
+        />
+        <source
+          media="(min-width:768px )"
+          srcset="/images/homepage/special-events-tablet.jpg"
+        />
+        <img
+          src="/images/homepage/special-events-mobile.jpg"
+          alt="special-events"
+          class="hidden shadow-2xl"
+          id="specialEventsImg"
+        />
+      </picture>
+      <picture>
+        <source
+          media="(min-width:1440px )"
+          srcset="/public/images/homepage/social-events-desktop.jpg"
+        />
+        <source
+          media="(min-width:768px )"
+          srcset="/public/images/homepage/social-events-tablet.jpg"
+        />
+        <img
+          src="/public/images/homepage/social-events-mobile.jpg"
+          alt="social-events"
+          class="hidden shadow-2xl"
+          id="socialEventsImg"
+        />
+      </picture>
+    </div>
+
+    <div class="xl:flex xl:flex-col-reverse">
+      <!-- LINKS -->
+      <div class="mt-12 xl:mt-[4.94rem]">
+        <ul
+          class="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:gap-[0.62rem] xl:flex-col xl:items-start xl:text-left"
+        >
+          <li class="">
+            <a
+              href=""
+              id="familyGatheringLink"
+              class="after:focus:bg-beaver-clr focus relative text-[1.0625rem] font-semibold uppercase leading-7 tracking-[0.15625rem] text-[#4C4C4C]/50 transition-colors duration-500 ease-linear focus:text-[#4C4C4C] after:focus:absolute after:focus:bottom-[-6px] after:focus:left-[65px] after:focus:h-[0.0625rem] after:focus:w-12 md:after:focus:bottom-[-6px] md:after:focus:left-[65px]"
+              >FAMILY GATHERING</a
+            >
+          </li>
+          <li class="">
+            <a
+              href=""
+              id="specialEventsLink"
+              class="after:focus:bg-beaver-clr active relative text-[1.0625rem] font-semibold uppercase leading-7 tracking-[0.15625rem] text-[#4C4C4C]/50 transition-colors duration-500 ease-linear focus:text-[#4C4C4C] after:focus:absolute after:focus:bottom-[-6px] after:focus:left-[50px] after:focus:h-[0.0625rem] after:focus:w-12"
+              >SPECIAL EVENTS</a
+            >
+          </li>
+          <li class="">
+            <a
+              href=""
+              id="socialEventsLink"
+              class="after:focus:bg-beaver-clr active relative text-[1.0625rem] font-semibold uppercase leading-7 tracking-[0.15625rem] text-[#4C4C4C]/50 transition-colors duration-500 ease-linear focus:text-[#4C4C4C] after:focus:absolute after:focus:bottom-[-6px] after:focus:left-[50px] after:focus:h-[0.0625rem] after:focus:w-12"
+              >SOCIAL EVENTS</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- TEXT Family Gathering -->
+      <div class="mt-[1.69rem] md:mt-[3.44rem]" id="familyGatheringText">
+        <div
+          class="flex flex-col items-center gap-[0.81rem] text-center md:max-2xl:gap-[1.19rem] xl:items-start xl:text-left"
+        >
+          <h2
+            class="text-ebonyClay-clr text-[2rem] font-bold leading-10 tracking-[-0.025rem] md:max-2xl:text-[3rem] md:max-2xl:leading-[3rem] md:max-2xl:tracking-[-0.03125rem]"
+          >
+            Family Gathering
+          </h2>
+          <p
+            class="text-ebonyClay-clr text-base font-normal leading-relaxed md:max-2xl:text-xl md:max-2xl:leading-[1.875rem] xl:w-[27.8125rem]"
+          >
+            We love catering for entire families. So please bring everyone along
+            for a special meal with your loved ones. We&#39;ll provide a
+            memorable experience for all.
+          </p>
+          <a
+            href="/booking"
+            class="bg-codGray-clr hover:border-codGray-clr hover:text-codGray-clr mt-[1.19rem] flex h-16 w-[15.3125rem] items-center justify-center text-[1.0625rem] uppercase leading-4 tracking-[0.15625rem] text-white transition-all duration-500 ease-linear hover:border hover:border-solid hover:bg-transparent md:mt-[2.56rem]"
+          >
+            Book a table
+          </a>
+        </div>
+      </div>
+      <!-- TEXT Special Events-->
+      <div class="mt-[1.69rem] hidden md:mt-[3.44rem]" id="specialEventsText">
+        <div
+          class="flex flex-col items-center gap-[0.81rem] text-center md:max-2xl:gap-[1.19rem] xl:items-start xl:text-left"
+        >
+          <h2
+            class="text-ebonyClay-clr text-[2rem] font-bold leading-10 tracking-[-0.025rem] md:max-2xl:text-[3rem] md:max-2xl:leading-[3rem] md:max-2xl:tracking-[-0.03125rem]"
+          >
+            Special Events
+          </h2>
+          <p
+            class="text-ebonyClay-clr text-base font-normal leading-relaxed md:max-2xl:text-xl md:max-2xl:leading-[1.875rem] xl:w-[27.8125rem]"
+          >
+            Whether it&#39;s a romantic dinner or special date you&#39;re
+            celebrating with others we&#39;ll look after you. We&#39;ll be sure
+            to mark your special date with an unforgettable meal.
+          </p>
+          <a
+            href="/booking"
+            class="bg-codGray-clr mt-[1.19rem] flex h-16 w-[15.3125rem] items-center justify-center text-[1.0625rem] uppercase leading-4 tracking-[0.15625rem] text-white"
+          >
+            Book a table
+          </a>
+        </div>
+      </div>
+      <!-- TEXT SOCIAL EVENTS -->
+      <div class="mt-[1.69rem] hidden md:mt-[3.44rem]" id="socialEventsText">
+        <div
+          class="flex flex-col items-center gap-[0.81rem] text-center md:max-2xl:gap-[1.19rem] xl:items-start xl:text-left"
+        >
+          <h2
+            class="text-ebonyClay-clr text-[2rem] font-bold leading-10 tracking-[-0.025rem] md:max-2xl:text-[3rem] md:max-2xl:leading-[3rem] md:max-2xl:tracking-[-0.03125rem]"
+          >
+            Social Events
+          </h2>
+          <p
+            class="text-ebonyClay-clr text-base font-normal leading-relaxed md:max-2xl:text-xl md:max-2xl:leading-[1.875rem] xl:w-[27.8125rem]"
+          >
+            Are you looking to have a larger social event? No problem! We&#39;re
+            more than happy to cater for big parties. We&#39;ll work with you to
+            make your event a hit with everyone.
+          </p>
+          <a
+            href="/booking"
+            class="bg-codGray-clr mt-[1.19rem] flex h-16 w-[15.3125rem] items-center justify-center text-[1.0625rem] uppercase leading-4 tracking-[0.15625rem] text-white"
+          >
+            Book a table
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  const familyGatheringLink = document.getElementById("familyGatheringLink");
+  const specialEventsLink = document.getElementById("specialEventsLink");
+  const socialEventsLink = document.getElementById("socialEventsLink");
+  const familyGatheringText = document.getElementById("familyGatheringText");
+  const specialEventsText = document.getElementById("specialEventsText");
+  const socialEventsText = document.getElementById("socialEventsText");
+  const familyGatheringImg = document.getElementById("familyGatheringImg");
+  const specialEventsImg = document.getElementById("specialEventsImg");
+  const socialEventsImg = document.getElementById("socialEventsImg");
+
+  const links = document.querySelectorAll("a");
+
+  links.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      // Remove the 'active' class from all links
+      links.forEach((link) => link.classList.remove("active"));
+
+      // Add the 'active' class to the clicked link
+      link.classList.add("active");
+    });
+  });
+
+  familyGatheringLink.addEventListener("click", () => {
+    familyGatheringText.classList.remove("hidden");
+    familyGatheringImg.classList.remove("hidden");
+    specialEventsText.classList.add("hidden");
+    specialEventsImg.classList.add("hidden");
+    socialEventsText.classList.add("hidden");
+    socialEventsImg.classList.add("hidden");
+  });
+  specialEventsLink.addEventListener("click", () => {
+    specialEventsText.classList.remove("hidden");
+    specialEventsImg.classList.remove("hidden");
+    familyGatheringText.classList.add("hidden");
+    familyGatheringImg.classList.add("hidden");
+    socialEventsText.classList.add("hidden");
+    socialEventsImg.classList.add("hidden");
+  });
+  socialEventsLink.addEventListener("click", () => {
+    socialEventsText.classList.remove("hidden");
+    socialEventsImg.classList.remove("hidden");
+    familyGatheringText.classList.add("hidden");
+    familyGatheringImg.classList.add("hidden");
+    specialEventsText.classList.add("hidden");
+    specialEventsImg.classList.add("hidden");
+  });
+</script>
